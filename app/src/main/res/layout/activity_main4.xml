@@ -61,6 +61,32 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="297dp"
         tools:ignore="MissingConstraints">
+        <EditText
+            android:id="@+id/edNomID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:hint="Nom"
+            android:background="@drawable/back_edit"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:fontFamily="@font/comfortaabold"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edPrenomID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prénom"
+            android:textSize="15sp"
+            android:background="@drawable/back_edit"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/comfortaabold"
+            android:inputType="text"/>
 
 
         <EditText
@@ -85,19 +111,6 @@
             android:fontFamily="@font/comfortaabold"
             android:hint="Mot de passe"
             android:inputType="textPassword"
-            android:paddingLeft="15dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textSize="15sp" />
-
-        <EditText
-            android:id="@+id/edNomID2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/back_edit"
-            android:fontFamily="@font/comfortaabold"
-            android:hint="Nom"
-            android:inputType="text"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"

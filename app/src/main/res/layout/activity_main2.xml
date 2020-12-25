@@ -43,7 +43,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/comfortaabold"
-                android:text="Créez votre premier"
+                android:text="nouveau magasin"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
@@ -121,20 +121,6 @@
                 android:fontFamily="@font/comfortaabold"
                 android:inputType="text"/>
 
-            <EditText
-                android:id="@+id/edPass2ID"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Mot de passe"
-                android:textSize="15sp"
-                android:background="@drawable/back_edit"
-                android:paddingLeft="15dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/comfortaabold"
-                android:inputType="textPassword"/>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -172,21 +158,12 @@
                 android:id="@+id/buSaveID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Enregistrer"
-                android:textSize="15sp"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/back_but"
                 android:fontFamily="@font/comfortaabold"
-                android:textColor="@android:color/white"
+                android:text="Next"
                 android:textAllCaps="false"
-                android:layout_marginTop="30dp" />
-
-            <TextView
-                android:id="@+id/txtRetourID"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/comfortaabold"
-                android:gravity="center"
-                android:text="retour !"
+                android:textColor="@android:color/white"
                 android:textSize="15sp" />
 
 

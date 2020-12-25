@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,21 +35,52 @@ public class MainActivity extends AppCompatActivity {
             txtNew.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(MainActivity.this , MainActivity2.class);
+                    Intent intent = new Intent(MainActivity.this , MainActivity4.class);
                     startActivity(intent);
                 }
-            });
+            }  );
         }
+
+
 
         // Listen de Button Login
         {
             buLogin.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(MainActivity.this, MainActivity3.class);
-                    startActivity(intent);
+
+                    // test
+                    if(test_user() == 0){
+                        //admin
+                       // Intent intent = new Intent(MainActivity.this, MainActivity3.class);
+                     //   startActivity(intent);
+                    }else{
+                        if(test_user() == 1){
+                            //agent
+                            Intent intent = new Intent(MainActivity.this, mainactivity5.class);
+                            startActivity(intent);
+                        }
+                    }
+                    // fin test
+
                 }
             });
         }
+    }
+    private int test_user(){
+        Editable s = edEmail.getText();
+        Editable pass = edPass.getText();
+        String d = s.toString();
+        String passS = pass.toString();
+
+    if( d == "ayoub@gmail.com" && passS == "ayoub"){
+        return 0;
+    }else{
+        if(d == "tayeb@gmail.com" && passS == "tayeb"){
+            return 1;
+        }
+    }
+
+    return 3;
     }
 }

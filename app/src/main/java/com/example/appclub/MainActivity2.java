@@ -36,7 +36,7 @@ public class MainActivity2 extends AppCompatActivity {
             edNomID = findViewById(R.id.edNomID);
             edPrenomID = findViewById(R.id.edPrenomID);
             edEmail2ID = findViewById(R.id.edEmail2ID);
-            edPass2ID = findViewById(R.id.edPass2ID);
+
             txtLoc = findViewById(R.id.txtLocID);
             buLoc = findViewById(R.id.buLocID);
             buSave = findViewById(R.id.buSaveID);
@@ -78,7 +78,7 @@ public class MainActivity2 extends AppCompatActivity {
             buSave.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
+                    Intent intent = new Intent(MainActivity2.this, MainActivity7.class);
                     startActivity(intent);
                 }
             });
@@ -88,7 +88,7 @@ public class MainActivity2 extends AppCompatActivity {
            txtRetour.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   Intent intent = new Intent(MainActivity2.this , MainActivity.class);
+                   Intent intent = new Intent(MainActivity2.this , mainactivity5.class);
                    startActivity(intent);
                }
            });

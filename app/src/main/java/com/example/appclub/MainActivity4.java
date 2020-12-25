@@ -34,13 +34,32 @@ public class MainActivity4 extends AppCompatActivity {
 
         // Find All
         {
-            edNomID2 = findViewById(R.id.edNomID2);
-            edPrenomID2 = findViewById(R.id.edPrenomID2);
+            edNomID2 = findViewById(R.id.edNomID);
+            edPrenomID2 = findViewById(R.id.edPrenomID);
             edEmail2ID2 = findViewById(R.id.edEmail2ID2);
             edPass2ID2 = findViewById(R.id.edPass2ID2);
-
-            buSaveID2 = findViewById(R.id.buSaveID2);
             txtRetour = findViewById(R.id.txtRetourID);
+            buSaveID2 = findViewById(R.id.buSaveID3);
+        }
+
+        {
+            txtRetour.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(MainActivity4.this , MainActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
+
+        {
+            buSaveID2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(MainActivity4.this , mainactivity5.class);
+                    startActivity(intent);
+                }
+            });
         }
     }
 
