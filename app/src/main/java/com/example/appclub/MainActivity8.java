@@ -1,24 +1,23 @@
 package com.example.appclub;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.CheckBox;
+
 
 public class MainActivity8 extends AppCompatActivity {
 
-
-    private TextView ListView,Cat,Produit1,Produit2,Produit3,RF1,RF2,RF3;
-    private CheckBox CB ,CB2,CB3;
-
-    private Button BuNext;
-
-
-
-
+    private Button BuNext = findViewById(R.id.BuNext);
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -26,23 +25,10 @@ public class MainActivity8 extends AppCompatActivity {
         setContentView(R.layout.activity_main8);
 
         // Find All
-        {
-            ListView =  findViewById(R.id.ListeView);
-            Cat = findViewById(R.id.Cat);
-            Produit1= findViewById(R.id.Produit);
-            Produit2= findViewById(R.id.Produit);
-            Produit3= findViewById(R.id.PR2);
-
-            RF1= findViewById(R.id.RF);
-            RF2= findViewById(R.id.R1);
-            RF3= findViewById(R.id.R2_);
 
             BuNext = findViewById(R.id.BuNext);
 
 
-        }
-
-        {
             BuNext.setOnClickListener(
                     new View.OnClickListener() {
                         @Override
@@ -52,7 +38,7 @@ public class MainActivity8 extends AppCompatActivity {
                         }
                     }
             );
-        }
+
     }
 
 

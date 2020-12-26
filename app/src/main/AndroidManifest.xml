@@ -24,8 +24,16 @@
         <activity android:name=".MainActivity2" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".MainActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".MainActivity4"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".mainactivity5"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity5"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".mainactivity6"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity7"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity8"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity9"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity10"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity11"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity12"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity13"  android:screenOrientation="portrait"  android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>

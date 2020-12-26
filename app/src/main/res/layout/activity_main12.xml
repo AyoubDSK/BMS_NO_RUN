@@ -17,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,UnknownIdInLayout" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,7 +36,8 @@
             android:paddingLeft="20dp"
             android:text="Liste"
             android:textColor="#000"
-            android:textSize="32sp" />
+            android:textSize="32sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
 
         <TextView
             android:id="@+id/Cat"
@@ -46,7 +48,8 @@
             android:fontFamily="@font/comfortaabold"
             android:text="Cat 2 Multiprise :"
             android:textColor="#000"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -62,7 +65,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="BPN"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/R1"
@@ -73,7 +77,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="RF‐20"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <CheckBox
                 android:id="@+id/CB2"
@@ -81,7 +86,8 @@
                 android:layout_height="45dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,RtlHardcoded" />
 
         </LinearLayout>
 
@@ -109,7 +115,8 @@
                         android:fontFamily="@font/comfortaabold"
                         android:text="Interrupteur différentiel"
                         android:textColor="#000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
 
                     <TextView
                         android:id="@+id/RF"
@@ -120,14 +127,16 @@
                         android:fontFamily="@font/comfortaabold"
                         android:text="RF‐21"
                         android:textColor="#000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
 
                     <CheckBox
                         android:id="@+id/CB"
                         android:layout_width="64dp"
                         android:layout_height="45dp"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="15dp" />
+                        android:layout_marginTop="15dp"
+                        tools:ignore="RtlHardcoded" />
 
                 </LinearLayout>
 
@@ -149,7 +158,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="Disjoncteur différentiel branchement et de protection "
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/R2_"
@@ -160,7 +170,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="RF‐19"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <CheckBox
                 android:id="@+id/CB3"
@@ -168,7 +179,8 @@
                 android:layout_height="45dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,RtlHardcoded" />
 
         </LinearLayout>
 
@@ -181,7 +193,8 @@
             android:text="Next"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 

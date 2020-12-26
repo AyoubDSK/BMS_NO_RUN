@@ -5,6 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/back_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".78"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -17,7 +29,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,NotSibling,UnknownIdInLayout" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,17 +38,6 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="-10dp"
         tools:layout_editor_absoluteY="4dp">
-
-        <TextView
-            android:id="@+id/ListeView"
-            android:layout_width="427dp"
-            android:layout_height="92dp"
-            android:background="@color/colorPrimaryDark"
-            android:fontFamily="@font/comfortaabold"
-            android:paddingLeft="20dp"
-            android:text="Liste"
-            android:textColor="#000"
-            android:textSize="32sp" />
 
         <TextView
             android:id="@+id/Cat"
@@ -46,7 +48,8 @@
             android:fontFamily="@font/comfortaabold"
             android:text="Cat 4 interrupteur :"
             android:textColor="#000"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,7 +59,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="49dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -72,7 +76,8 @@
                         android:fontFamily="@font/comfortaabold"
                         android:text="Continum"
                         android:textColor="#000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
 
                     <TextView
                         android:id="@+id/RF1"
@@ -83,14 +88,16 @@
                         android:fontFamily="@font/comfortaabold"
                         android:text="RF‐10"
                         android:textColor="#000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
 
                     <CheckBox
                         android:id="@+id/CB1"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="5dp" />
+                        android:layout_marginTop="5dp"
+                        tools:ignore="RtlHardcoded" />
 
                 </LinearLayout>
 
@@ -112,7 +119,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="Optima"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/R2"
@@ -123,7 +131,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="RF‐11"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <CheckBox
                 android:id="@+id/C2"
@@ -131,7 +140,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,RtlHardcoded" />
 
         </LinearLayout>
 
@@ -149,7 +159,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="Continum Color"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/R3"
@@ -160,7 +171,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="RF‐12"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <CheckBox
                 android:id="@+id/C3"
@@ -168,7 +180,8 @@
                 android:layout_height="37dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,RtlHardcoded" />
 
         </LinearLayout>
 
@@ -186,7 +199,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="Echo plus"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/R4"
@@ -197,7 +211,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="RF‐13"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <CheckBox
                 android:id="@+id/C4"
@@ -205,7 +220,8 @@
                 android:layout_height="37dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,RtlHardcoded" />
 
         </LinearLayout>
 
@@ -223,7 +239,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="Galaxy"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/R5"
@@ -234,7 +251,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="RF‐14"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <CheckBox
                 android:id="@+id/C5"
@@ -242,7 +260,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,RtlHardcoded" />
 
         </LinearLayout>
 
@@ -260,7 +279,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="Etoile"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/R6"
@@ -271,7 +291,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="RF‐15"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <CheckBox
                 android:id="@+id/C6"
@@ -279,7 +300,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,RtlHardcoded" />
 
         </LinearLayout>
 
@@ -297,7 +319,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="Apollo"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <TextView
                 android:id="@+id/R7"
@@ -308,7 +331,8 @@
                 android:fontFamily="@font/comfortaabold"
                 android:text="RF‐16"
                 android:textColor="#000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
 
             <CheckBox
                 android:id="@+id/C7"
@@ -316,7 +340,8 @@
                 android:layout_height="45dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,RtlHardcoded" />
 
         </LinearLayout>
 
@@ -329,8 +354,27 @@
             android:text="Next"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ListeView"
+        android:layout_width="427dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@font/comfortaabold"
+        android:paddingLeft="20dp"
+        android:text="Liste"
+        android:textColor="#000"
+        android:textSize="32sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,RtlSymmetry"
+        tools:layout_editor_absoluteX="6dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

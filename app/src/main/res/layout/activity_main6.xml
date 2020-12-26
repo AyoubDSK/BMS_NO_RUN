@@ -16,14 +16,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,UnknownIdInLayout" />
 
     <LinearLayout
         android:layout_width="444dp"
         android:layout_height="159dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="175dp">
+        tools:layout_editor_absoluteY="175dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textView"
@@ -33,7 +35,8 @@
             android:fontFamily="@font/comfortaabold"
             android:text="Magasin"
             android:textColor="#000"
-            android:textSize="32sp" />
+            android:textSize="32sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,7 +44,8 @@
         android:layout_height="397dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="334dp">
+        tools:layout_editor_absoluteY="334dp"
+        tools:ignore="MissingConstraints">
 
         <EditText
             android:id="@+id/edPass1ID4"
@@ -55,7 +59,8 @@
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry" />
 
         <EditText
             android:id="@+id/edPass1ID5"
@@ -69,7 +74,8 @@
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry" />
 
         <EditText
             android:id="@+id/edEmail1ID4"
@@ -82,7 +88,8 @@
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry" />
 
         <Button
             android:id="@+id/buLoginID4"
@@ -94,7 +101,8 @@
             android:text="Connexion"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

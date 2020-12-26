@@ -14,7 +14,8 @@
         android:textColor="#000"
         android:textSize="32sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="232dp" />
+        tools:layout_editor_absoluteY="232dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/Etude"
@@ -25,7 +26,8 @@
         android:textColor="#000"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="192dp" />
+        tools:layout_editor_absoluteY="192dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/Ex"
@@ -38,7 +40,8 @@
         android:textColor="@android:color/white"
         android:textSize="15sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="422dp" />
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/NM"
@@ -51,7 +54,8 @@
         android:textColor="@android:color/white"
         android:textSize="15sp"
         tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="422dp" />
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -63,6 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,UnknownIdInLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

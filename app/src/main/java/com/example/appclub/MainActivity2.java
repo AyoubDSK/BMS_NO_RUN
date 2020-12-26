@@ -88,7 +88,7 @@ public class MainActivity2 extends AppCompatActivity {
            txtRetour.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   Intent intent = new Intent(MainActivity2.this , mainactivity5.class);
+                   Intent intent = new Intent(MainActivity2.this , MainActivity5.class);
                    startActivity(intent);
                }
            });
